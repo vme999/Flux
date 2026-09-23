@@ -1,0 +1,17 @@
+---
+description: iOS 26 iPhone + concise Apple HIG defaults for UI, motion, and interaction
+alwaysApply: true
+---
+
+# Flux: iOS 26, iPhone
+
+Ship for **iPhone** on **iOS 26** only: prefer **native iOS 26** APIs and SwiftUI; layout for phone safe areas / Dynamic Island; no iPad-first patterns unless asked. If `IPHONEOS_DEPLOYMENT_TARGET` or `TARGETED_DEVICE_FAMILY` in the project disagrees, flag it.
+
+# Apple HIG defaults
+
+Follow [Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/)—system look and behavior on iPhone unless the user wants a deliberate departure.
+
+- **Visuals**: Semantic colors (`Color.primary` / `secondary`, `label`, `systemBackground`, fills, separators) and `accentColor`; no hardcoded white/black on main chrome; SF Symbols; materials only where system chrome would. **Type**: Dynamic Type text styles (`.body`, `.headline`, …); system font unless spec says otherwise.
+- **Layout**: Safe areas; `NavigationStack` / tabs / sheets as fits; ~**44pt** targets (`contentShape` / padding when visuals are small).
+- **Motion**: Default/spring-style timing; motion is purposeful; respect **Reduce Motion** (`accessibilityReduceMotion` / `UIAccessibility.isReduceMotionEnabled`)—no essential info only in animation.
+- **Interaction**: Platform gestures and navigation; clear loading/disabled states; confirm destructive actions; haptics sparingly (`UIImpactFeedbackGenerator`, etc.); keyboard-safe layout and sensible focus order; do not block home-indicator / edge system gestures without an alternative.

@@ -1,0 +1,387 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F82F8AF2D6D100100000001 /* FluxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F82F8AF2D6D100100000004 /* FluxApp.swift */; };
+		3F82F8AF2D6D100100000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F82F8AF2D6D100100000005 /* ContentView.swift */; };
+		3F82F8AF2D6D100100000003 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F82F8AF2D6D100100000006 /* Assets.xcassets */; };
+		3FC1A0012E71000100000005 /* TrendChartLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC1A0012E71000100000001 /* TrendChartLayout.swift */; };
+		3FC1A0012E71000100000006 /* TrendModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC1A0012E71000100000002 /* TrendModels.swift */; };
+		3FC1A0012E71000100000007 /* TrendAggregation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC1A0012E71000100000003 /* TrendAggregation.swift */; };
+		3FC1A0012E71000100000008 /* TrendChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC1A0012E71000100000004 /* TrendChartView.swift */; };
+		3FC1A0022E71000200000011 /* MainModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC1A0022E71000200000001 /* MainModels.swift */; };
+		3FC1A0022E71000200000012 /* LedgerStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC1A0022E71000200000002 /* LedgerStore.swift */; };
+		3FC1A0022E71000200000013 /* LedgerPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC1A0022E71000200000003 /* LedgerPageView.swift */; };
+		3FC1A0022E71000200000014 /* TrendPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC1A0022E71000200000004 /* TrendPageView.swift */; };
+		3FC1A0022E71000200000015 /* ManagePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC1A0022E71000200000005 /* ManagePageView.swift */; };
+		3FC1A0022E71000200000016 /* TabBarScrollModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC1A0022E71000200000006 /* TabBarScrollModifier.swift */; };
+		3FC1A0022E71000200000017 /* FluxGlassTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC1A0022E71000200000007 /* FluxGlassTabBar.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3F82F8AF2D6D100100000004 /* FluxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluxApp.swift; sourceTree = "<group>"; };
+		3F82F8AF2D6D100100000005 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3F82F8AF2D6D100100000006 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F82F8AF2D6D100100000007 /* Flux.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flux.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FC1A0012E71000100000001 /* TrendChartLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendChartLayout.swift; sourceTree = "<group>"; };
+		3FC1A0012E71000100000002 /* TrendModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendModels.swift; sourceTree = "<group>"; };
+		3FC1A0012E71000100000003 /* TrendAggregation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendAggregation.swift; sourceTree = "<group>"; };
+		3FC1A0012E71000100000004 /* TrendChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendChartView.swift; sourceTree = "<group>"; };
+		3FC1A0022E71000200000001 /* MainModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainModels.swift; sourceTree = "<group>"; };
+		3FC1A0022E71000200000002 /* LedgerStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LedgerStore.swift; sourceTree = "<group>"; };
+		3FC1A0022E71000200000003 /* LedgerPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LedgerPageView.swift; sourceTree = "<group>"; };
+		3FC1A0022E71000200000004 /* TrendPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendPageView.swift; sourceTree = "<group>"; };
+		3FC1A0022E71000200000005 /* ManagePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagePageView.swift; sourceTree = "<group>"; };
+		3FC1A0022E71000200000006 /* TabBarScrollModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarScrollModifier.swift; sourceTree = "<group>"; };
+		3FC1A0022E71000200000007 /* FluxGlassTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluxGlassTabBar.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F82F8AF2D6D100100000008 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F82F8AF2D6D100100000009 = {
+			isa = PBXGroup;
+			children = (
+				3F82F8AF2D6D10010000000A /* Flux */,
+				3F82F8AF2D6D10010000000B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F82F8AF2D6D10010000000A /* Flux */ = {
+			isa = PBXGroup;
+			children = (
+				3F82F8AF2D6D100100000004 /* FluxApp.swift */,
+				3F82F8AF2D6D100100000005 /* ContentView.swift */,
+				3FC1A0022E71000200000010 /* Main */,
+				3FC1A0012E71000100000009 /* Trend */,
+				3F82F8AF2D6D100100000006 /* Assets.xcassets */,
+			);
+			path = Flux;
+			sourceTree = "<group>";
+		};
+		3FC1A0022E71000200000010 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				3FC1A0022E71000200000001 /* MainModels.swift */,
+				3FC1A0022E71000200000002 /* LedgerStore.swift */,
+				3FC1A0022E71000200000003 /* LedgerPageView.swift */,
+				3FC1A0022E71000200000004 /* TrendPageView.swift */,
+				3FC1A0022E71000200000005 /* ManagePageView.swift */,
+				3FC1A0022E71000200000006 /* TabBarScrollModifier.swift */,
+				3FC1A0022E71000200000007 /* FluxGlassTabBar.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		3FC1A0012E71000100000009 /* Trend */ = {
+			isa = PBXGroup;
+			children = (
+				3FC1A0012E71000100000001 /* TrendChartLayout.swift */,
+				3FC1A0012E71000100000002 /* TrendModels.swift */,
+				3FC1A0012E71000100000003 /* TrendAggregation.swift */,
+				3FC1A0012E71000100000004 /* TrendChartView.swift */,
+			);
+			path = Trend;
+			sourceTree = "<group>";
+		};
+		3F82F8AF2D6D10010000000B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F82F8AF2D6D100100000007 /* Flux.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F82F8AF2D6D10010000000C /* Flux */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F82F8AF2D6D10010000001A /* Build configuration list for PBXNativeTarget "Flux" */;
+			buildPhases = (
+				3F82F8AF2D6D10010000000D /* Sources */,
+				3F82F8AF2D6D100100000008 /* Frameworks */,
+				3F82F8AF2D6D10010000000E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Flux;
+			productName = Flux;
+			productReference = 3F82F8AF2D6D100100000007 /* Flux.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F82F8AF2D6D10010000000F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 2630;
+				TargetAttributes = {
+					3F82F8AF2D6D10010000000C = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = 3F82F8AF2D6D100100000010 /* Build configuration list for PBXProject "Flux" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F82F8AF2D6D100100000009;
+			productRefGroup = 3F82F8AF2D6D10010000000B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F82F8AF2D6D10010000000C /* Flux */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F82F8AF2D6D10010000000E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F82F8AF2D6D100100000003 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F82F8AF2D6D10010000000D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F82F8AF2D6D100100000001 /* FluxApp.swift in Sources */,
+				3F82F8AF2D6D100100000002 /* ContentView.swift in Sources */,
+				3FC1A0022E71000200000011 /* MainModels.swift in Sources */,
+				3FC1A0022E71000200000012 /* LedgerStore.swift in Sources */,
+				3FC1A0022E71000200000013 /* LedgerPageView.swift in Sources */,
+				3FC1A0022E71000200000014 /* TrendPageView.swift in Sources */,
+				3FC1A0022E71000200000015 /* ManagePageView.swift in Sources */,
+				3FC1A0022E71000200000016 /* TabBarScrollModifier.swift in Sources */,
+				3FC1A0022E71000200000017 /* FluxGlassTabBar.swift in Sources */,
+				3FC1A0012E71000100000005 /* TrendChartLayout.swift in Sources */,
+				3FC1A0012E71000100000006 /* TrendModels.swift in Sources */,
+				3FC1A0012E71000100000007 /* TrendAggregation.swift in Sources */,
+				3FC1A0012E71000100000008 /* TrendChartView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3F82F8AF2D6D100100000011 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = FV8PS9XKRU;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F82F8AF2D6D100100000012 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = FV8PS9XKRU;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		3F82F8AF2D6D100100000013 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDefault;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yaohua.Flux;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F82F8AF2D6D100100000014 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDefault;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yaohua.Flux;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F82F8AF2D6D100100000010 /* Build configuration list for PBXProject "Flux" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F82F8AF2D6D100100000011 /* Debug */,
+				3F82F8AF2D6D100100000012 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F82F8AF2D6D10010000001A /* Build configuration list for PBXNativeTarget "Flux" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F82F8AF2D6D100100000013 /* Debug */,
+				3F82F8AF2D6D100100000014 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F82F8AF2D6D10010000000F /* Project object */;
+}
